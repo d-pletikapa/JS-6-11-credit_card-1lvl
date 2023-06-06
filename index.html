@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="./index.js"></script>
+  <title>Credit Card Checkout</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="card">
+      <p class="secure">Secure Checkout</p>
+      <div class="credit-card">
+        <span class="card__number">xxxx xxxx xxxx xxxx</span>
+        <div class="card__personal">
+          <span class="card__name">John Doe</span>
+          <span class="card__date">04/24</span>
+        </div>
+      </div>
+
+
+      <form action="#" class="form" id="form">
+        <div class="form__input-wrap form__input-wrap_holder">
+          <label for="" class="form__label form__holder-label">Card Holder</label>
+          <input type="text" class="input input__holder">
+        </div>
+
+        <div class="form__input-wrap form__input-wrap_number">
+          <label for="" class="form__label form__number-label">Card Number</label>
+          <input class="input input__number" id="cardNumber">
+        </div>
+
+        <div class="form__input-wrap form__input-wrap_date">
+          <label for="" class="form__label form__date-label">Card Expiry</label>
+          <input type="text" class="input input__date">
+        </div>
+
+        <div class="form__input-wrap form__input-wrap_cvv">
+          <label for="" class="form__label form__cvv-label">CVV</label>
+          <input type="text" class="input input__cvv">
+        </div>
+
+        <button class="form__button">CHECK OUT</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
