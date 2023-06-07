@@ -2,9 +2,15 @@
   "name": "js-6-11-credit_card-1lvl",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "author": "Denis PL"
+  "author": "Denis PL",
+  "dependencies": {
+    "redom": "^3.29.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  }
 }
